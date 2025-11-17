@@ -1214,7 +1214,7 @@ Retrouvez les diapositives à l'adresse suivante : [https://badroro.github.io/de
           :width="200"
           :height="200"
           type="svg"
-          data="https://badroro.github.io/devops-introduction"
+          data="https://badrom1.github.io/devops-introduction"
           :margin="10"
           :dotsOptions="{ type: 'square', color: 'white' }"
       />
@@ -1237,7 +1237,7 @@ Retrouvez les diapositives à l'adresse suivante : [https://badroro.github.io/de
           :width="200"
           :height="200"
           type="svg"
-          data="https://badroro.github.io/devops-introduction"
+          data="https://badrom1.github.io/devops-introduction"
           :margin="10"
           :dotsOptions="{ type: 'square', color: 'black' }"
       />
