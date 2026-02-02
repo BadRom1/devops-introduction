@@ -300,82 +300,11 @@ En 2016, cet acronyme évolue avec l’ajout du **Lean**, pour former l'acronyme
 
 ::right::
 
-<div class="calms-container">
-  <div class="ligne1">
-    <div class="block automation">
-      AUTOMATION
-    </div>
-    <div class="block lean">
-      LEAN
-    </div>
-    <div class="block measurement">
-      MEASUREMENT
-    </div>
-    <div class="block share">
-      SHARE
-    </div>
-  </div>
-  <div class="block culture ligne2">
-    CULTURE
-  </div>
-</div>
+<CalmsBlock />
 
 <style>
 h1 {
   color: #2B90B6;
-}
-.calms-container {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
- 
-  align-items: center;
-  justify-content: center;
-}
-.ligne1 {
-  display: flex;
-  gap: 20px;
-  width: 80%;
-  height: 300px;
-}
-.ligne2 {
-  width: 80%;
-  height: 80px;
-}
-.block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 900;
-  border-radius: 10px;
-  flex-grow: 1;
-}
-.culture {
-  background-color: green;
-}
-.automation {
-  background-color: #FFB612;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.lean {
-  background-color: #A1006B;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.measurement {
-  background-color: #00A1DE;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.share {
-  background-color: red;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
 }
 </style>
 
@@ -402,83 +331,11 @@ Cela ne peut se faire sans cet appui.
 
 ::right::
 
-<div class="calms-container">
-  <div class="ligne1">
-    <div class="block automation">
-      AUTOMATION
-    </div>
-    <div class="block lean">
-      LEAN
-    </div>
-    <div class="block measurement">
-      MEASUREMENT
-    </div>
-    <div class="block share">
-      SHARE
-    </div>
-  </div>
-  <div class="block culture ligne2">
-    CULTURE
-  </div>
-</div>
+<CalmsBlock highlight="culture" />
 
 <style>
 h1 {
   color: #2B90B6;
-}
-.calms-container {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
- 
-  align-items: center;
-  justify-content: center;
-}
-.ligne1 {
-  display: flex;
-  gap: 20px;
-  width: 80%;
-  height: 300px;
-  opacity: 0.5;
-}
-.ligne2 {
-  width: 80%;
-  height: 80px;
-}
-.block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 900;
-  border-radius: 10px;
-  flex-grow: 1;
-}
-.culture {
-  background-color: green;
-}
-.automation {
-  background-color: #FFB612;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.lean {
-  background-color: #A1006B;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.measurement {
-  background-color: #00A1DE;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.share {
-  background-color: red;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
 }
 </style>
 
@@ -497,90 +354,15 @@ L'automatisation consiste à libérer les équipes des tâches répétitives et 
 
 <br>
 
-Il s’agit aussi de donner aux gens les moyens de faire se concentrer sur celles qui ont réellement de la valeur.
+Il s'agit aussi de donner aux gens les moyens de faire se concentrer sur celles qui ont réellement de la valeur.
 
 ::right::
 
-<div class="calms-container">
-  <div class="ligne1">
-    <div class="block automation">
-      AUTOMATION
-    </div>
-    <div class="block lean">
-      LEAN
-    </div>
-    <div class="block measurement">
-      MEASUREMENT
-    </div>
-    <div class="block share">
-      SHARE
-    </div>
-  </div>
-  <div class="block culture ligne2">
-    CULTURE
-  </div>
-</div>
+<CalmsBlock highlight="automation" />
 
 <style>
 h1 {
   color: #2B90B6;
-}
-.calms-container {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
- 
-  align-items: center;
-  justify-content: center;
-}
-.ligne1 {
-  display: flex;
-  gap: 20px;
-  width: 80%;
-  height: 300px;
-}
-.ligne2 {
-  width: 80%;
-  height: 80px;
-}
-.block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 900;
-  border-radius: 10px;
-  flex-grow: 1;
-}
-.culture {
-  background-color: green;
-  opacity: 0.5;
-}
-.automation {
-  background-color: #FFB612;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.lean {
-  background-color: #A1006B;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.measurement {
-  background-color: #00A1DE;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.share {
-  background-color: red;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
 }
 </style>
 
@@ -595,7 +377,7 @@ Ce principe tire ses origines des méthodes de production de Toyota.
 
 <br>
 
-Le lean signifie "sans gras", c’est une méthode de gestion de la production qui se concentre sur la "chasse aux gaspillages".
+Le lean signifie "sans gras", c'est une méthode de gestion de la production qui se concentre sur la "chasse aux gaspillages".
 
 <br>
 
@@ -603,86 +385,11 @@ Ce principe de rationalisation cherche à réduire des excès, en limitant au mi
 
 ::right::
 
-<div class="calms-container">
-  <div class="ligne1">
-    <div class="block automation">
-      AUTOMATION
-    </div>
-    <div class="block lean">
-      LEAN
-    </div>
-    <div class="block measurement">
-      MEASUREMENT
-    </div>
-    <div class="block share">
-      SHARE
-    </div>
-  </div>
-  <div class="block culture ligne2">
-    CULTURE
-  </div>
-</div>
+<CalmsBlock highlight="lean" />
 
 <style>
 h1 {
   color: #2B90B6;
-}
-.calms-container {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
- 
-  align-items: center;
-  justify-content: center;
-}
-.ligne1 {
-  display: flex;
-  gap: 20px;
-  width: 80%;
-  height: 300px;
-}
-.ligne2 {
-  width: 80%;
-  height: 80px;
-}
-.block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 900;
-  border-radius: 10px;
-  flex-grow: 1;
-}
-.culture {
-  background-color: green;
-  opacity: 0.5;
-}
-.automation {
-  background-color: #FFB612;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.lean {
-  background-color: #A1006B;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.measurement {
-  background-color: #00A1DE;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.share {
-  background-color: red;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
 }
 </style>
 
@@ -697,7 +404,7 @@ Si vous ne pouvez pas mesurer, vous ne pouvez pas vous améliorer.
 
 <br>
 
-On ne se limite pas à mesurer le temps d’un déploiement logiciel.
+On ne se limite pas à mesurer le temps d'un déploiement logiciel.
 
 <br>
 
@@ -705,86 +412,11 @@ Il faut mettre en place d'autres indicateurs pour que le processus puisse être 
 
 ::right::
 
-<div class="calms-container">
-  <div class="ligne1">
-    <div class="block automation">
-      AUTOMATION
-    </div>
-    <div class="block lean">
-      LEAN
-    </div>
-    <div class="block measurement">
-      MEASUREMENT
-    </div>
-    <div class="block share">
-      SHARE
-    </div>
-  </div>
-  <div class="block culture ligne2">
-    CULTURE
-  </div>
-</div>
+<CalmsBlock highlight="measurement" />
 
 <style>
 h1 {
   color: #2B90B6;
-}
-.calms-container {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
- 
-  align-items: center;
-  justify-content: center;
-}
-.ligne1 {
-  display: flex;
-  gap: 20px;
-  width: 80%;
-  height: 300px;
-}
-.ligne2 {
-  width: 80%;
-  height: 80px;
-}
-.block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 900;
-  border-radius: 10px;
-  flex-grow: 1;
-}
-.culture {
-  background-color: green;
-  opacity: 0.5;
-}
-.automation {
-  background-color: #FFB612;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.lean {
-  background-color: #A1006B;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.measurement {
-  background-color: #00A1DE;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-}
-.share {
-  background-color: red;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
 }
 </style>
 
@@ -814,86 +446,11 @@ Le partage exprime la nécessité d'une communication permanente entre les équi
 
 ::right::
 
-<div class="calms-container">
-  <div class="ligne1">
-    <div class="block automation">
-      AUTOMATION
-    </div>
-    <div class="block lean">
-      LEAN
-    </div>
-    <div class="block measurement">
-      MEASUREMENT
-    </div>
-    <div class="block share">
-      SHARE
-    </div>
-  </div>
-  <div class="block culture ligne2">
-    CULTURE
-  </div>
-</div>
+<CalmsBlock highlight="share" />
 
 <style>
 h1 {
   color: #2B90B6;
-}
-.calms-container {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
- 
-  align-items: center;
-  justify-content: center;
-}
-.ligne1 {
-  display: flex;
-  gap: 20px;
-  width: 80%;
-  height: 300px;
-}
-.ligne2 {
-  width: 80%;
-  height: 80px;
-}
-.block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 900;
-  border-radius: 10px;
-  flex-grow: 1;
-}
-.culture {
-  background-color: green;
-  opacity: 0.5;
-}
-.automation {
-  background-color: #FFB612;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.lean {
-  background-color: #A1006B;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.measurement {
-  background-color: #00A1DE;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  opacity: 0.5;
-}
-.share {
-  background-color: red;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
 }
 </style>
 
