@@ -12,7 +12,7 @@ La presentation "Introduction au DevOps" pour les M1 MIAGE de Grenoble doit pass
 
 Les phases decimales s'executent entre les phases entieres dans l'ordre numerique.
 
-- [ ] **Phase 1: Nettoyage technique** - Corriger la dette technique avant d'ajouter du contenu
+- [x] **Phase 1: Nettoyage technique** - Corriger la dette technique avant d'ajouter du contenu
 - [ ] **Phase 2: Contenu moderne** - Ajouter les quatre nouvelles sections et etoffer les outils
 - [ ] **Phase 3: Quizz interactifs** - Ajouter les checkpoints de comprehension entre les sections
 - [ ] **Phase 4: Structure narrative et finitions** - Lier le tout avec des transitions et un recapitulatif
@@ -32,8 +32,8 @@ Les phases decimales s'executent entre les phases entieres dans l'ordre numeriqu
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md -- Corrections texte, HTML mal forme et QR codes
-- [ ] 01-02-PLAN.md -- Refactoring CSS CALMS en composant Vue CalmsBlock
+- [x] 01-01-PLAN.md -- Corrections texte, HTML mal forme et QR codes
+- [x] 01-02-PLAN.md -- Refactoring CSS CALMS en composant Vue CalmsBlock
 
 ### Phase 2: Contenu moderne
 **Goal**: La presentation couvre les pratiques DevOps modernes essentielles (conteneurs, IaC, DORA, SRE) et la section Outils est etoffee, ajoutant ~30-35 minutes de contenu
@@ -93,7 +93,7 @@ Les phases s'executent dans l'ordre numerique : 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Nettoyage technique | 0/2 | Not started | - |
+| 1. Nettoyage technique | 2/2 | Complete | 2026-02-02 |
 | 2. Contenu moderne | 0/5 | Not started | - |
 | 3. Quizz interactifs | 0/3 | Not started | - |
 | 4. Structure narrative et finitions | 0/2 | Not started | - |
