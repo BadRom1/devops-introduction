@@ -309,7 +309,7 @@ Mistakes that cause annoyance but are easily fixable.
 ---
 
 ### Pitfall 11: QR Code / URL Inconsistencies Breaking Links
-**What goes wrong:** QR codes on final slide pointing to wrong URL (badrom1 vs badroro). Students scan, link breaks, they can't access slides or give feedback.
+**What goes wrong:** QR codes on final slide pointing to wrong URL (badrom1 vs BadRom1). Students scan, link breaks, they can't access slides or give feedback.
 
 **Why it happens:** Username changed, or multiple accounts, or typo during QR code generation. Easy to forget to regenerate QR code after URL change.
 

@@ -27,7 +27,7 @@ Les étudiants doivent repartir avec une vision claire et complète de ce qu'est
 
 - [ ] Corriger les coquilles dans le texte (apportés→apporter, vidé, conférence→conférences, résumé→résumés, posé→posés)
 - [ ] Factoriser le CSS CALMS dupliqué 5 fois (~60 lignes chaque) en un seul bloc global
-- [ ] Corriger l'URL incohérente dans les QR codes (badrom1 vs badroro)
+- [ ] Corriger l'URL incohérente dans les QR codes (badrom1 vs BadRom1)
 - [ ] Corriger les balises HTML mal formées (</img> inutiles)
 - [ ] Ajouter une section Conteneurs & Docker (2-3 slides, survol conceptuel : pourquoi les conteneurs, images, registries, orchestration en un mot)
 - [ ] Ajouter une section IaC & GitOps (2-3 slides, survol : Infrastructure as Code, approche déclarative, GitOps)

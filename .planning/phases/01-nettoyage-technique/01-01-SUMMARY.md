@@ -11,7 +11,7 @@ requires:
 provides:
   - Slides.md avec texte français correct (grammaire, orthographe)
   - Balises HTML valides (img auto-fermantes)
-  - URLs QR codes cohérentes (badroro.github.io)
+  - URLs QR codes cohérentes (BadRom1.github.io)
 affects: [01-02, phase-2-contenu]
 
 # Tech tracking
@@ -48,7 +48,7 @@ completed: 2026-02-02
 ## Accomplishments
 - Texte français grammaticalement correct pour les mots identifiés (conférences, apporter, posés, résumés)
 - Balises HTML valides avec images auto-fermantes conformes aux standards Vue/JSX
-- QR codes pointant vers l'URL correcte badroro.github.io
+- QR codes pointant vers l'URL correcte BadRom1.github.io
 - Build Slidev réussi sans erreur
 
 ## Task Commits
@@ -63,7 +63,7 @@ Each task was committed atomically:
 
 2. **Task 2: Corriger les balises HTML et les URLs QR codes** - `894f4c4` (fix)
    - 3 balises `</img>` orphelines → `<img ... />` auto-fermantes (lignes 1025-1027)
-   - URLs QR codes: badrom1 → badroro (lignes 1217, 1240)
+   - URLs QR codes: badrom1 → BadRom1 (lignes 1217, 1240)
 
 ## Files Created/Modified
 - `slides.md` - Présentation Slidev principale avec corrections textuelles et HTML

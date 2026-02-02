@@ -21,7 +21,7 @@ re_verification: false
 |---|-------|--------|----------|
 | 1 | Le texte des slides ne contient plus de fautes d'orthographe | ✓ VERIFIED | All corrections verified: "conférences" (l.153), "apporter" (l.229), "posés" (l.289), "résumés" (l.291). "vidé" (l.662) correctly preserved. |
 | 2 | Le style CSS CALMS est defini une seule fois | ✓ VERIFIED | `components/CalmsBlock.vue` contains all CALMS CSS (100 lines). Zero occurrences of `.calms-container` in slides.md. |
-| 3 | Les QR codes pointent vers URLs valides et coherentes | ✓ VERIFIED | 4 occurrences of "badroro.github.io" (frontmatter, text, 2 QR codes l.774, l.797). Zero occurrences of "badrom1". |
+| 3 | Les QR codes pointent vers URLs valides et coherentes | ✓ VERIFIED | 4 occurrences of "BadRom1.github.io" (frontmatter, text, 2 QR codes l.774, l.797). Zero occurrences of "badrom1". |
 | 4 | Aucune balise HTML mal formee | ✓ VERIFIED | Zero occurrences of `</img>` orphan tags. All images use self-closing `<img ... />` format. |
 | 5 | La presentation se build correctement | ✓ VERIFIED | `pnpm run build` completed successfully in 2.69s with no errors. |
 
@@ -41,7 +41,7 @@ re_verification: false
 | slides.md | CalmsBlock.vue | Slidev auto-discovery | ✓ WIRED | 6 `<CalmsBlock />` usages found (l.303, l.334, l.361, l.388, l.415, l.449). Component auto-discovered from components/ directory. |
 | CalmsBlock.vue | highlight prop | Vue defineProps | ✓ WIRED | defineProps with validator accepting: culture, automation, lean, measurement, share, none. 5 slides use specific highlights, 1 uses default (none). |
 | CalmsBlock template | CSS classes | Vue :class binding | ✓ WIRED | Each block has `:class="{ dimmed: ... }"` conditional. All 5 color classes present (culture, automation, lean, measurement, share). |
-| QR codes | badroro.github.io | data prop | ✓ WIRED | Both QR codes (l.774 dark mode, l.797 light mode) point to correct URL. |
+| QR codes | BadRom1.github.io | data prop | ✓ WIRED | Both QR codes (l.774 dark mode, l.797 light mode) point to correct URL. |
 
 ### Requirements Coverage
 
@@ -49,7 +49,7 @@ re_verification: false
 |-------------|-------------|--------|-------------------|
 | DEBT-01 | Corriger les coquilles textuelles | ✓ SATISFIED | Truth 1 (spelling corrections verified) |
 | DEBT-02 | Factoriser le CSS CALMS duplique | ✓ SATISFIED | Truth 2 (single CalmsBlock component, no duplication) |
-| DEBT-03 | Corriger l'URL incoherente QR codes | ✓ SATISFIED | Truth 3 (badroro URLs verified) |
+| DEBT-03 | Corriger l'URL incoherente QR codes | ✓ SATISFIED | Truth 3 (BadRom1 URLs verified) |
 | DEBT-04 | Corriger les balises HTML mal formees | ✓ SATISFIED | Truth 4 (no orphan </img> tags) |
 
 All 4 phase requirements satisfied.
@@ -156,15 +156,15 @@ grep -c "badrom1" slides.md
 # ✓ RESULT: 0 (all removed)
 
 # Correct URL count
-grep -c "badroro" slides.md
+grep -c "BadRom1" slides.md
 # ✓ RESULT: 4 (frontmatter, text link, 2 QR codes)
 
 # QR code data attributes
-grep -n 'data="https://badroro' slides.md
+grep -n 'data="https://BadRom1' slides.md
 # ✓ FOUND: Line 774 (dark mode QR), Line 797 (light mode QR)
 ```
 
-**Result:** All URLs consistent with "badroro" identifier.
+**Result:** All URLs consistent with "BadRom1" identifier.
 
 #### Truth 4: HTML validation verified
 
@@ -260,7 +260,7 @@ Level 3 - Wired: ✓ PASSED
 All 5 success criteria met:
 1. ✓ Spelling errors corrected (4 corrections + 1 correctly preserved)
 2. ✓ CSS consolidated (6 duplications → 1 component)
-3. ✓ URLs consistent (badroro throughout)
+3. ✓ URLs consistent (BadRom1 throughout)
 4. ✓ HTML well-formed (no malformed tags)
 5. ✓ Build successful (2.69s, no errors)
 

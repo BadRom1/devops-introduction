@@ -40,7 +40,7 @@
 
 **Hosting:**
 - GitHub Pages - Configured as deployment target
-- Repository: `https://github.com/badroro/devops-introduction`
+- Repository: `https://github.com/BadRom1/devops-introduction`
 - Base path: `/{repository-name}/` dynamically set during build
 
 **CI Pipeline:**

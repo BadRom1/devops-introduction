@@ -11,7 +11,7 @@ Requirements pour la version amelioree de la presentation. Chaque requirement co
 
 - [x] **DEBT-01**: Corriger les coquilles dans le texte (apportes->apporter, vide, conference->conferences, resume->resumes, pose->poses)
 - [x] **DEBT-02**: Factoriser le CSS CALMS duplique 5 fois (~60 lignes chaque) en un seul bloc global (style.css ou composant Vue)
-- [x] **DEBT-03**: Corriger l'URL incoherente dans les QR codes (badrom1 vs badroro)
+- [x] **DEBT-03**: Corriger l'URL incoherente dans les QR codes (badrom1 vs BadRom1)
 - [x] **DEBT-04**: Corriger les balises HTML mal formees (</img> inutiles)
 
 ### Contenu moderne (CONT)

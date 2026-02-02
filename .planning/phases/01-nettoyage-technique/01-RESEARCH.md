@@ -342,20 +342,20 @@ AFTER:  Ils sont résumés par l'acronyme **CAMS**
 <!-- Source: DEBT-03 requirement + grep findings lines 1217, 1240 -->
 
 <!-- Current state (INCONSISTENT) -->
-Frontmatter line 14: https://badroro.github.io/devops-introduction
-Text link line 1207: https://badroro.github.io/devops-introduction
+Frontmatter line 14: https://BadRom1.github.io/devops-introduction
+Text link line 1207: https://BadRom1.github.io/devops-introduction
 QRCode line 1217:    https://badrom1.github.io/devops-introduction  ❌ WRONG
 QRCode line 1240:    https://badrom1.github.io/devops-introduction  ❌ WRONG
 
 <!-- After fix (CONSISTENT) -->
-ALL locations: https://badroro.github.io/devops-introduction
+ALL locations: https://BadRom1.github.io/devops-introduction
 
 <!-- QRCode component usage -->
 <QRCode
   :width="300"
   :height="300"
   type="svg"
-  data="https://badroro.github.io/devops-introduction"
+  data="https://BadRom1.github.io/devops-introduction"
   :margin="1"
   :dotsOptions="{ type: 'extra-rounded', color: 'purple' }"
   :imageOptions="{ hideBackgroundDots: true, imageSize: 0.4, margin: 0 }"

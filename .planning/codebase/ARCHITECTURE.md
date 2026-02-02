@@ -67,7 +67,7 @@
 3. Slidev build command generates static SPA in `dist/` directory
 4. Assets copied from `assets/` to `dist/assets/`
 5. Build artifact uploaded to GitHub Pages
-6. Static site deployed to GitHub Pages (https://badroro.github.io/devops-introduction/)
+6. Static site deployed to GitHub Pages (https://BadRom1.github.io/devops-introduction/)
 
 **State Management:**
 - Minimal component-level state (e.g., Counter component uses Vue `ref()`)
