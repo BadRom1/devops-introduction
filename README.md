@@ -9,3 +9,8 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev at the [documentation](https://sli.dev/).
+
+
+---
+
+Présentation disponible sur [https://badrom1.github.io/devops-introduction/](https://badrom1.github.io/devops-introduction/)
