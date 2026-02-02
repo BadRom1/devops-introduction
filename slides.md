@@ -150,7 +150,7 @@ transition: slide-up
 
 # Origine du DevOps
 
-Lors de ces conférence, le constat qu'ils tiraient est que le cloisonnement des équipes de développement (Dev) et des opérations (Ops) était contre-productif car leurs méthodes de travail s'opposaient.
+Lors de ces conférences, le constat qu'ils tiraient est que le cloisonnement des équipes de développement (Dev) et des opérations (Ops) était contre-productif car leurs méthodes de travail s'opposaient.
 
 <br>
 <br>
@@ -226,7 +226,7 @@ Comme on a vu brièvement, les équipes Dev et Ops ont des objectifs différents
 
 <br>
 
-- Les développeurs : en charge d'écrire du code, d'apporter de <span v-mark="{at: 1, color: '#60a5fa', type: 'underline', padding: 0}">nouvelles fonctionnalités</span> et de corriger des bugs. Leurs préoccupations : apportés <span v-mark="{at: 1, color: '#60a5fa', type: 'underline', padding: 0}">le plus rapidement</span> des <span v-mark="{at: 1, color: '#60a5fa', type: 'underline', padding: 0}">changements</span> pour répondre aux besoins du client.
+- Les développeurs : en charge d'écrire du code, d'apporter de <span v-mark="{at: 1, color: '#60a5fa', type: 'underline', padding: 0}">nouvelles fonctionnalités</span> et de corriger des bugs. Leurs préoccupations : apporter <span v-mark="{at: 1, color: '#60a5fa', type: 'underline', padding: 0}">le plus rapidement</span> des <span v-mark="{at: 1, color: '#60a5fa', type: 'underline', padding: 0}">changements</span> pour répondre aux besoins du client.
 
 
 - Les opérations : en charge de créer et de <span v-mark="{at: 2, color: '#49dd80', type: 'underline', padding: 0}">maintenir</span> les infrastructures hébergeant ces applications. Leurs préoccupations : <span v-mark="{at: 2, color: '#49dd80', type: 'underline', padding: 0}">stabiliser et garantir la disponibilité</span> de celle-ci pour répondre aux exigences du client. Dans les opérationnelles, on trouve les personnes en charge d'administrer, de sécuriser et de connecter les équipements.
@@ -286,9 +286,9 @@ transition: slide-up
 
 # Apparition des principes
 
-C'est en 2010 que les principes fondateurs du DevOps ont été posé.
+C'est en 2010 que les principes fondateurs du DevOps ont été posés.
 
-Ils sont résumé par l'acronyme **CAMS**, qui signifie :
+Ils sont résumés par l'acronyme **CAMS**, qui signifie :
 - **Culture**,
 - **Automation**,
 - **Measures**
